@@ -13,7 +13,7 @@
     "test": "echo no tests yet 🤷‍♂️"
   },
   "name": "simple-discord-auth",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "simple discord api request authentication / validation",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -21,6 +21,7 @@
   "author": "David Garcia <87497958+Dgarc359@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.14.0",
     "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
@@ -33,5 +34,8 @@
   "keywords": [
     "Discord",
     "Auth"
-  ]
+  ],
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  }
 }
