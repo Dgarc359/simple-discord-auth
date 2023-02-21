@@ -13,7 +13,7 @@
     "test": "echo no tests yet 🤷‍♂️"
   },
   "name": "simple-discord-auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simple discord api request authentication / validation",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -27,6 +27,11 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.9.5"
   },
-  "files": ["lib/**/*"],
-  "keywords": ["Discord", "Auth"]
+  "files": [
+    "out/**/*"
+  ],
+  "keywords": [
+    "Discord",
+    "Auth"
+  ]
 }
