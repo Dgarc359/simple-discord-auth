@@ -6,7 +6,7 @@ interface IHeaders {
 
 /**
  * Verify Discord request
- * 
+ *
  * @param body discord event body payload
  * @param headers discord event headers
  * @param botPublicKey your bot's public key
@@ -16,8 +16,8 @@ export const verifyDiscordRequest = (body: string, headers: IHeaders, botPublicK
   const signature = headers['x-signature-ed25519'];
   const timestamp = headers['x-signature-timestamp'];
 
-  if(!signature || !timestamp) {
-    console.error("Missing fields in headers");
+  if (!signature || !timestamp) {
+    console.error('Missing fields in headers');
     return false;
   }
 

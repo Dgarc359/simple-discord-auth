@@ -13,7 +13,7 @@
     "test": "yarn jest --config jestconfig.json"
   },
   "name": "simple-discord-auth",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "simple discord api request authentication / validation",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
